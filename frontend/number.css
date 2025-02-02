@@ -52,4 +52,20 @@ body {
     background: #e9ecef;
     border-radius: 4px;
   }
-  
+
+/* Ensure good spacing on very small screens */
+@media (max-width: 480px) {
+  .container {
+    width: 95%;
+    padding: 10px;
+  }
+
+  h1, h2 {
+    font-size: 1.3em;
+  }
+
+  input[type="text"], button {
+    font-size: 0.9rem;
+    padding: 10px;
+  }
+}

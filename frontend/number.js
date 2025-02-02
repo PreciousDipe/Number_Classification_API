@@ -17,7 +17,7 @@ document.getElementById('numberForm').addEventListener('submit', async (e) => {
     }
 
     // Replace with your actual API endpoint URL (ensure there are no extra slashes)
-    const API_URL = 'https://kp9wkwas5b.execute-api.us-east-1.amazonaws.com/prod/classify-number';
+    const API_URL = 'https://zlbxetulrh.execute-api.us-east-1.amazonaws.com/prod/classify-number';
 
     try {
       const response = await fetch(`${API_URL}?number=${encodeURIComponent(numberInput)}`);
